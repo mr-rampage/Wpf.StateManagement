@@ -5,8 +5,11 @@
         <PackageId>Wpf.StateManagement</PackageId>
         <Title>WPF State Management</Title>
         <Description>WPF implementation of the State Management Protocol</Description>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <ReleaseNotes>
+            v.0.0.2
+            - Downgraded to C# 7.3
+
             v.0.0.1
             - Initial Release
         </ReleaseNotes>
@@ -19,6 +22,7 @@
         <RepositoryType>git</RepositoryType>
         <PackageTags>wpf flux state-management</PackageTags>
         <LangVersion>7.3</LangVersion>
+        <IsTestProject>false</IsTestProject>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.8.0" />
