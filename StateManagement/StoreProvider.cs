@@ -8,8 +8,7 @@ namespace StateManagement
         public static Action ProvideStore<T>(this IInputElement storeProvider, in IStore<T> store)
         {
             var dispatcher = CreateDispatcher(store);
-            var removeHandler = storeProvider.Enhance(dispatcher);
-            return () => removeHandler();
+            return storeProvider.Enhance(dispatcher);
         }
 
         private static DispatchEventHandler CreateDispatcher<T>(IStore<T> store)
