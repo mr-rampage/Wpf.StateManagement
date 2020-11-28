@@ -1,7 +1,6 @@
-language: csharp
-mono: none
-dotnet: 5.0.100
-solution: StateManagement.sln
+os: windows
+language: shell
+
 script:
   - dotnet restore
   - dotnet test
