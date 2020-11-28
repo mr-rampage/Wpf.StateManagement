@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagement", "StateManagement\StateManagement.csproj", "{2D0C65F2-E2C1-40E6-839D-ABF559FA6A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagement.Test", "StateManagement.Test\StateManagement.Test.csproj", "{19ACD849-80CB-44FC-ADCF-2512289AA0AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D0C65F2-E2C1-40E6-839D-ABF559FA6A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0C65F2-E2C1-40E6-839D-ABF559FA6A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0C65F2-E2C1-40E6-839D-ABF559FA6A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0C65F2-E2C1-40E6-839D-ABF559FA6A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19ACD849-80CB-44FC-ADCF-2512289AA0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19ACD849-80CB-44FC-ADCF-2512289AA0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19ACD849-80CB-44FC-ADCF-2512289AA0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19ACD849-80CB-44FC-ADCF-2512289AA0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
