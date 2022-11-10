@@ -25,7 +25,7 @@
         <IsTestProject>false</IsTestProject>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="NuGet.Build.Tasks.Pack" Version="6.2.0" />
+        <PackageReference Include="NuGet.Build.Tasks.Pack" Version="6.4.0" />
         <PackageReference Include="Microsoft.Xaml" Version="4.0.0.1" />
     </ItemGroup>
 </Project>
